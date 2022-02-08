@@ -1,9 +1,9 @@
 ﻿using ListaComprasAPI.Domain.Aggregations.Acao.Models;
 using ListaComprasAPI.Domain.Interfaces.Respositories;
 
-namespace ListaComprasAPI.Domain.Aggregations.Acao.Interfaces
+namespace ListaComprasAPI.Domain.Aggregations.Acao.Interfaces.Repository
 {
-    public interface IAcaoRepositoryInsert :
+    public interface IAcaoServiceInsert :
         IRepositoryInsert<AcaoModel>
     {
     }
