@@ -3,7 +3,7 @@ using ListaComprasAPI.Domain.Interfaces.Respositories;
 
 namespace ListaComprasAPI.Domain.Aggregations.Acao.Interfaces.Repository
 {
-    public interface IAcaoServiceSelectQuery :
+    public interface IAcaoRepositorySelectQuery :
         IRepositorySelectQuery<AcaoModel,AcaoArgs>
     {
     }

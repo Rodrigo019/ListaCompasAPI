@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BCEBFC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaComprasAPI.Domain", "ListaComprasAPI.Domain\ListaComprasAPI.Domain.csproj", "{1200B5F4-E8C9-4490-9A56-E559196FA439}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{EEA2BBCC-D562-4B96-8AE3-4C4667051076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaComprasAPI.Service", "ListaComprasAPI.Service\ListaComprasAPI.Service.csproj", "{346E91AB-4E0A-4C6E-8420-C1919E740F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{1200B5F4-E8C9-4490-9A56-E559196FA439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1200B5F4-E8C9-4490-9A56-E559196FA439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1200B5F4-E8C9-4490-9A56-E559196FA439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346E91AB-4E0A-4C6E-8420-C1919E740F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346E91AB-4E0A-4C6E-8420-C1919E740F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346E91AB-4E0A-4C6E-8420-C1919E740F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346E91AB-4E0A-4C6E-8420-C1919E740F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1200B5F4-E8C9-4490-9A56-E559196FA439} = {BCEBFC2E-4B84-4CA1-8A4D-96E1132C5469}
+		{346E91AB-4E0A-4C6E-8420-C1919E740F04} = {EEA2BBCC-D562-4B96-8AE3-4C4667051076}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {135D1ED6-1BB9-4995-BA25-51CF721DE555}
